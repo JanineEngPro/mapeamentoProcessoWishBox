@@ -1,1 +1,100 @@
+body{ 
+	font-family: 'Eczar', serif;
+}
+strong{
+	font-weight: bold;
+}
 
+i {
+	font-style: italic;
+}
+.formatoHref{
+	text-decoration: none;
+	color:#000000;
+
+}
+
+.titlePadraoCanto{
+	margin: 1em;
+	font-family: 'Montez', cursive;
+	font-size:36px;
+	font-weight: bold;
+}
+.titlePadraoCanto:before{
+	content:"➪"
+}
+.bottomVoltar{
+	font-size: 18px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 0.2em 0.5em;
+	width: 19%;
+	background-color: #d4e9ed;
+	text-decoration: none;
+	color:#000000;
+	margin: 5em 3.2em;
+}
+.bottomVoltar:hover{
+	font-size: 20px;
+	background-color:#c2c2c2;
+}
+/*header*/
+#logoTopSite {
+	width: 45%;
+	height:150px;
+	margin:0 0;
+} 
+.logoRight{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalhoPricipal .caixaTop{
+	display: flex;
+	align-items: flex-start;
+    justify-content: space-evenly;
+	padding: 15px 15px;
+	border-color:teal;
+	border-width:4px;
+	border-style: solid;
+	border-radius:10px;
+}
+ 
+.navCabecalho{
+	display: flex;
+	margin:20px auto;
+	padding: 11px;
+	border-color: #808080;
+	border-width:3px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+
+.liNavCAbecalho{
+	padding: 0 15px;
+}
+
+.aNavCabecalho {
+	text-transform: uppercase;
+	color:#000000;
+	font-weight: bold;
+	font-size:18px;
+	text-decoration:none; 
+}
+nav a:hover {
+	color:#177653;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+header p {
+	padding: 15px;
+	font-family: 'Montez', cursive;
+	font-size:34px;
+	text-decoration:none;
+	font-weight: bold;
+    color:#191970;
+}
